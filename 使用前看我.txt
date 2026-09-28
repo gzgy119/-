@@ -1,0 +1,19 @@
+﻿Code Typer v0.5.0 —— 安装方法（三选一）
+========================================
+
+方法一：双击「安装.bat」（推荐）
+  前提：电脑已装 Visual Studio Code 且加入了 PATH。
+  装完在 VSCode 执行 Developer: Reload Window。
+
+方法二：VSCode 内手动安装
+  1. 打开 VSCode，进入扩展面板（Ctrl+Shift+X）
+  2. 点扩展面板右上角 "..." 菜单，选「从 VSIX 安装...」
+  3. 选择本目录里的 code-typer-0.5.0.vsix
+
+方法三：命令行
+  code --install-extension code-typer-0.5.0.vsix --force
+
+使用：Ctrl+Shift+P → Code Typer: Import Code File → 开启后随便敲键盘。
+详见「操作手册.md」。test-sample.py 是供试用的示例代码。
+
+要求：VSCode 1.70 或更高版本，Windows/macOS/Linux 均可。
